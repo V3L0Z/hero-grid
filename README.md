@@ -1,4 +1,5 @@
 # hero-grid
+## simple hero banner built with vue.js
 
 ## Project setup
 ```
