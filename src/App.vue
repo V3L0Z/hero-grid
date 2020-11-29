@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <Revelry />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Revelry from "@/components/Revelry";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Revelry
   }
 }
 </script>
@@ -23,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>

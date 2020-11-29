@@ -1,0 +1,47 @@
+@media screen and (max-width: 1720px) {
+    .nav {
+        grid-area: nav;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    .hero-text {
+        padding-right: 50px;
+        padding-left: 20%;
+    }
+
+    .hero-image {
+        padding-right: 15%;
+    }
+
+    .hero-image img {
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 1366px) {
+    /**
+      need to create a new mobile menu here
+     */
+    .nav {
+        grid-area: nav;
+        background-color: white;
+        padding: 0;
+    }
+
+    .hero-text {
+        padding-right: 50px;
+        padding-left: 10%;
+    }
+
+    .hero-image {
+        padding-right: 5%;
+    }
+
+    .hero-image img {
+        max-width: 500px;
+    }
+
+}

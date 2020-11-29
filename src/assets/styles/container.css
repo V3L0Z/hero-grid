@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    height: 100vh;
+    background-color: #ECECEC;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 0.5fr 4fr 2fr;
+    grid-template-areas:
+      "nav nav nav nav nav nav"
+      "hero-text hero-text hero-text hero-image hero-image hero-image"
+      "item item item item item item"
+      "sexual-content sexual-content sexual-content sexual-content sexual-content sexual-content"
+;
+}

@@ -1,0 +1,17 @@
+.nav {
+    grid-area: nav;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.nav .item {
+    font-size: 18px;
+    font-family: "Raleway", Sans-serif,serif;
+}
+
+.nav .logo {
+    font-size: 18px;
+    font-weight: 900;
+    color: #2B7A78;
+}
